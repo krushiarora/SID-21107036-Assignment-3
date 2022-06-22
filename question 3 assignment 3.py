@@ -13,11 +13,11 @@ m = 4*math.pi*(r**2)
 print(m)
 
 #d
+import math
 r_1 = int(input("Enter Number"))
 a = int(input("Enter Angle in Radians"))
-b = math.cos(a)
-c = math.sin(a)
-answ = (r_1*(b)*2 + r_1(c)*2)*(1/2)
+b = int(input("Enter Angle in Radians"))
+answ = math.sqrt(r_1*((math.cos(a))**2+(math.sin(b))**2))
 print(answ)
 
 #e
